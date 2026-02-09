@@ -1,8 +1,6 @@
 import "./cart.css";
-import { useState } from "react";
 
-function CartSummary() {
-    const [cartCount, setCartCount] = useState(0);
+function CartSummary({cartCount}) {
 
   return (
     <div className="cart-summary">
